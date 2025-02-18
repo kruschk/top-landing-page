@@ -1,0 +1,184 @@
+/* General */
+
+* {
+    font-family: Roboto, serif;
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: 1px solid #f9faf8;
+    color: #f9faf8;
+    font-weight: bold;
+    padding: 8px 24px;
+}
+
+img {
+    align-content: center;
+    background-color: grey;
+    color: #f9faf8;
+    text-align: center;
+}
+
+.constrain-width {
+    margin: auto;
+    max-width: 896px;
+}
+
+/* Navigation bar */
+
+nav {
+    align-content: center;
+    background-color: #1f2937;
+    padding: 16px 0 0;
+}
+nav a {
+    color: #e5e7eb;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+nav li:first-child a {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+nav menu {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+}
+
+/* Hero */
+
+.hero {
+    background-color: #1f2937;
+}
+
+.hero > header {
+    display: flex;
+    gap: 32px;
+    justify-content: center;
+    padding: 96px 0;
+}
+
+.hero > header > * {
+    flex: 1;
+}
+
+.hero button {
+    border: 1px solid #3882f6;
+}
+
+.hero h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+/* Showcase */
+
+.showcase {
+    padding: 64px 0;
+}
+
+.showcase h2 {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 0 auto 48px auto;
+    max-width: 896px;
+    text-align: center;
+}
+
+.showcase img {
+    border-radius: 8px;
+    border: medium solid #3882f6;
+    height: 144px;
+    width: 144px;
+}
+
+.showcase .details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 64px;
+    justify-content: center;
+}
+
+.showcase .media {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 128px;
+    text-align: center;
+}
+
+/* Testimonial */
+
+.testimonial {
+    background-color: #e5e7eb;
+}
+
+.testimonial > blockquote {
+    box-sizing: border-box;
+    padding: 64px 32px;
+}
+
+.testimonial .quotation {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.testimonial .originator {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: end;
+}
+
+/* Call to action */
+
+.call-to-action {
+    padding: 64px 0;
+}
+
+.call-to-action > .container {
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 128px;
+}
+
+.call-to-action h2 {
+    color: #f9faf8;
+}
+
+.call-to-action p {
+    color: #e5e7eb;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 16px 0;
+    text-align: center;
+}
